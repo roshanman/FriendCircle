@@ -11,8 +11,6 @@ import FriendCircle
 import ImageViewer
 import Kingfisher
 
-// extension UIImageView: DisplaceableView { }
-
 let user1 = FCUserInfo(
     name: "张休明",
     avatar: "https://avatars0.githubusercontent.com/u/10202577?v=4&s=460",

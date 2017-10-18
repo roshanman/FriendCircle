@@ -19,4 +19,6 @@ extension UIImage {
     static let commentWhite = UIImage(named: "FCCommentWhite", in: resourceBundle, compatibleWith: nil)!
     
     static let videoPlay = UIImage(named: "VideoPlay", in: resourceBundle, compatibleWith: nil)!
+    static let defaultAvatar = UIImage(named: "defaultAvatar", in: resourceBundle, compatibleWith: nil)!
+    static let imagePlaceHolder = UIImage(named: "imagePlaceHolder", in: resourceBundle, compatibleWith: nil)!
 }

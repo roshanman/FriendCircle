@@ -135,6 +135,8 @@ fileprivate class FCImagePalyloadView: UIView {
                 zip(urls, imageViews).forEach {
                     let button = $0.1
                     
+                    button.setImage(UIImage.imagePlaceHolder, for: .normal)
+                    
                     if let url = URL(string: $0.0) {
                         $0.1.imageView?.kf.setImage(
                             with: url,
@@ -230,7 +232,7 @@ fileprivate class FCVideoPalyloadView: UIView {
                 guard let url = URL(string: placeHolder) else {
                     return
                 }
-                
+                button.setImage(UIImage.imagePlaceHolder, for: .normal)
                 button.imageView?.kf.setImage(
                     with: url,
                     placeholder: nil,
@@ -316,6 +318,16 @@ fileprivate class FCHTMLPalyloadView: UIView {
 }
 
 fileprivate class FCImageButton: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        imageView?.contentMode = .scaleAspectFill
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -331,7 +343,9 @@ fileprivate class FCVideoPalyLoadButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+
+        imageView?.contentMode = .scaleAspectFill
+
         addSubview(playButton)
     }
     

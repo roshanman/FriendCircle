@@ -1,5 +1,5 @@
 PODS:
-  - FriendCircle (0.1.0):
+  - FriendCircle (1.0.0):
     - Kingfisher (~> 3.13.1)
     - KMPlaceholderTextView
     - Then
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FriendCircle: a372c00423993e22cb3b35ccf746f9298f98f2ed
+  FriendCircle: 10e0171e4f3eadaf01db2392494f1ab3136ffe20
   ImageViewer: 163e5832e0a09e31a3e3482cce6e5e9029356174
   Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
   KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3

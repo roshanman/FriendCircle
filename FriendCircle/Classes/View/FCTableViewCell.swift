@@ -30,8 +30,14 @@ open class FCTableViewCell: UITableViewCell {
     
     public var model: FCModel! {
         didSet {
-            _ = URL(string: self.model.userInfo.avatar).map {
-                self.avatarImageView.kf.setImage(with: $0)
+            _ = URL(string: model.userInfo.avatar).map {
+                avatarImageView.kf.setImage(
+                    with: $0,
+                    placeholder: UIImage.defaultAvatar,
+                    options: nil,
+                    progressBlock: nil,
+                    completionHandler: nil
+                )
             }
             
             nameLabel.text          = model.userInfo.name
