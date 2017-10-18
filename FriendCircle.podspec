@@ -2,14 +2,14 @@
 Pod::Spec.new do |s|
   s.name             = 'FriendCircle'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of FriendCircle.'
+  s.summary          = 'FriendCircle like WehChat for iOS'
 
   s.description      = <<-DESC
 FriendCircle like WehChat for iOS.
                        DESC
 
   s.homepage         = 'https://github.com/roshanman/FriendCircle'
-  s.license          = { :type => 'GPL', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'morenotepad@163.com' => 'morenotepad@163.com' }
   s.source           = { :git => 'https://github.com/roshanman/FriendCircle.git', :tag => s.version.to_s }
 
