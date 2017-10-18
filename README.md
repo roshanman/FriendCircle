@@ -13,10 +13,13 @@
 For a detailed example, see the [Example](https://github.com/roshanman/FriendCircle/tree/master/Example)!
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+ScreenShot_1<br />
 ![""](https://github.com/roshanman/FriendCircle/blob/master/ScreenShots/ScreenShot_1.png)
 
+ScreenShot_2<br />
 ![""](https://github.com/roshanman/FriendCircle/blob/master/ScreenShots/ScreenShot_2.png)
 
+ScreenShot_3<br />
 ![""](https://github.com/roshanman/FriendCircle/blob/master/ScreenShots/ScreenShot_3.png)
 
 ## Requirements
@@ -40,7 +43,7 @@ github "roshanman/FriendCircle"
 
 ## Author
 
-morenotepad@163.com, morenotepad@163.com
+morenotepad@163.com
 
 ## License
 
