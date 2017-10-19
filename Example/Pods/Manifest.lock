@@ -1,0 +1,28 @@
+PODS:
+  - FriendCircle (1.0.0):
+    - Kingfisher (~> 3.13.1)
+    - KMPlaceholderTextView
+    - Then
+  - ImageViewer (4.1.0)
+  - Kingfisher (3.13.1)
+  - KMPlaceholderTextView (1.3.0)
+  - Then (2.2.0)
+
+DEPENDENCIES:
+  - FriendCircle (from `../`)
+  - ImageViewer (~> 4.1.0)
+
+EXTERNAL SOURCES:
+  FriendCircle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FriendCircle: 10e0171e4f3eadaf01db2392494f1ab3136ffe20
+  ImageViewer: 163e5832e0a09e31a3e3482cce6e5e9029356174
+  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  Then: 823f9813e1d4d0a814a5ba15e9c9d33ec7aca631
+
+PODFILE CHECKSUM: f6c36d10ffd22687398b3274f40ac0f27506d8bd
+
+COCOAPODS: 1.3.1

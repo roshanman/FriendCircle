@@ -1,0 +1,6 @@
+framework module FriendCircle {
+  umbrella header "FriendCircle-umbrella.h"
+
+  export *
+  module * { export * }
+}
