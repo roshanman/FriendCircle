@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
   s.name             = 'FriendCircle'
   s.version          = '1.0.0'
-  s.summary          = 'FriendCircle like WehChat for iOS'
+  s.summary          = 'FriendCircle like WeChat for iOS'
 
   s.description      = <<-DESC
-FriendCircle like WehChat for iOS.
+FriendCircle like WeChat for iOS.
                        DESC
 
   s.homepage         = 'https://github.com/roshanman/FriendCircle'
