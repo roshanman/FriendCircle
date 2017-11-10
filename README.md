@@ -4,7 +4,7 @@
 [![CI Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![CI Status](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org/)
 [![Version](https://img.shields.io/cocoapods/v/FriendCircle.svg?style=flat)](http://cocoapods.org/pods/FriendCircle)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-unCompatible-flat.svg)](https://github.com/Carthage/Carthage)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/FriendCircle.svg?style=flat)](http://cocoapods.org/pods/FriendCircle)
 [![Platform](https://img.shields.io/cocoapods/p/FriendCircle.svg?style=flat)](http://cocoapods.org/pods/FriendCircle)
 
