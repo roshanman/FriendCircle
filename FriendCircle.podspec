@@ -18,7 +18,7 @@ FriendCircle like WehChat for iOS.
   }
   s.ios.deployment_target = '8.0'
   s.source_files = 'FriendCircle/Classes/**/*'
-  s.dependency 'Kingfisher', '~> 3.13.1'
+  s.dependency 'Kingfisher'
   s.dependency 'Then'
   s.dependency 'KMPlaceholderTextView'
 end

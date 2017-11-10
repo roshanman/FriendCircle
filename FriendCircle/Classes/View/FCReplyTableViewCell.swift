@@ -29,7 +29,7 @@ class FCReplyTableViewCell: UITableViewCell {
         $0.isScrollEnabled = false
         $0.textContainerInset = UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
         $0.linkTextAttributes = [
-            NSForegroundColorAttributeName: UIColor.likeTextColor
+            NSAttributedStringKey.foregroundColor.rawValue: UIColor.likeTextColor
         ]
     }
     

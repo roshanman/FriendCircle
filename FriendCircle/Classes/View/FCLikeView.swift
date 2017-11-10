@@ -28,7 +28,7 @@ class FCLikeView: UIView {
         $0.isScrollEnabled = false
         $0.textContainerInset = UIEdgeInsets(top: 4, left: 2, bottom: 4, right: 2)
         $0.linkTextAttributes = [
-            NSForegroundColorAttributeName: UIColor.likeTextColor
+            NSAttributedStringKey.foregroundColor.rawValue: UIColor.likeTextColor
         ]
     }
     
@@ -46,22 +46,22 @@ class FCLikeView: UIView {
         let namesAttr = likes.map { user -> NSMutableAttributedString in
             let attr = NSMutableAttributedString(string: user.name)
             
-            let range = NSRange(0..<user.name.characters.count)
+            let range = NSRange(0..<user.name.count)
             
             attr.addAttribute(
-                NSFontAttributeName,
+                NSAttributedStringKey.font,
                 value: UIFont.systemFont(ofSize: 15),
                 range: range
             )
             
             attr.addAttribute(
-                NSLinkAttributeName,
+                NSAttributedStringKey.link,
                 value: user.id,
                 range: range
             )
             
             attr.addAttribute(
-                NSForegroundColorAttributeName,
+                NSAttributedStringKey.foregroundColor,
                 value: UIColor.red,
                 range: range
             )

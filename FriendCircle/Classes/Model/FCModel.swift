@@ -67,16 +67,16 @@ public class FCReplyItem: Equatable {
             func attr1() -> NSAttributedString {
                 let attr = NSMutableAttributedString(string: self.from.name)
                 
-                let range = NSRange(0..<self.from.name.characters.count)
+                let range = NSRange(0..<self.from.name.count)
                 
                 attr.addAttribute(
-                    NSLinkAttributeName,
+                    NSAttributedStringKey.link,
                     value: self.from.id,
                     range: range
                 )
                 
                 attr.addAttribute(
-                    NSFontAttributeName,
+                    NSAttributedStringKey.font,
                     value: UIFont.systemFont(ofSize: 14),
                     range: range
                 )
@@ -88,7 +88,7 @@ public class FCReplyItem: Equatable {
                 let attr = NSMutableAttributedString(string: "回复")
                 let range = NSRange(0..<2)
                 attr.addAttribute(
-                    NSFontAttributeName,
+                    NSAttributedStringKey.font,
                     value: UIFont.systemFont(ofSize: 14),
                     range: range
                 )
@@ -99,16 +99,16 @@ public class FCReplyItem: Equatable {
             func attr3() -> NSAttributedString {
                 let attr = NSMutableAttributedString(string: to.name)
                 
-                let range = NSRange(0..<to.name.characters.count)
+                let range = NSRange(0..<to.name.count)
                 
                 attr.addAttribute(
-                    NSLinkAttributeName,
+                    NSAttributedStringKey.link,
                     value: to.id,
                     range: range
                 )
                 
                 attr.addAttribute(
-                    NSFontAttributeName,
+                    NSAttributedStringKey.font,
                     value: UIFont.systemFont(ofSize: 14),
                     range: range
                 )
@@ -122,16 +122,16 @@ public class FCReplyItem: Equatable {
         } else {
             let attr = NSMutableAttributedString(string: self.from.name)
             
-            let range = NSRange(0..<self.from.name.characters.count)
+            let range = NSRange(0..<self.from.name.count)
             
             attr.addAttribute(
-                NSLinkAttributeName,
+                NSAttributedStringKey.link,
                 value: self.from.id,
                 range: range
             )
             
             attr.addAttribute(
-                NSFontAttributeName,
+                NSAttributedStringKey.font,
                 value: UIFont.systemFont(ofSize: 14),
                 range: range
             )
@@ -140,9 +140,9 @@ public class FCReplyItem: Equatable {
         }
         
         let attr = NSMutableAttributedString(string: ": \(self.text)")
-        let range = NSRange(0..<": \(self.text)".characters.count)
+        let range = NSRange(0..<": \(self.text)".count)
         attr.addAttribute(
-            NSFontAttributeName,
+            NSAttributedStringKey.font,
             value: UIFont.systemFont(ofSize: 14),
             range: range
         )
@@ -177,7 +177,7 @@ public class FCReplyItem: Equatable {
                 $0.isEditable = false
                 $0.textContainerInset = UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
                 $0.linkTextAttributes = [
-                    NSForegroundColorAttributeName: UIColor.likeTextColor
+                    NSAttributedStringKey.foregroundColor.rawValue: UIColor.likeTextColor
                 ]
             }
             

@@ -2,7 +2,7 @@
 
 
 [![CI Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![CI Status](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org/)
+[![CI Status](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org/)
 [![Version](https://img.shields.io/cocoapods/v/FriendCircle.svg?style=flat)](http://cocoapods.org/pods/FriendCircle)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-unCompatible-flat.svg)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/FriendCircle.svg?style=flat)](http://cocoapods.org/pods/FriendCircle)
@@ -24,8 +24,8 @@ ScreenShot_3<br />
 
 ## Requirements
 
-* Xcode 8.x
-* Swift 3.x
+* Xcode 9.x
+* Swift 4.x
 
 ## Installation
 

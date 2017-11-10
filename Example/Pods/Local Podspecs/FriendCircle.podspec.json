@@ -26,7 +26,7 @@
   "source_files": "FriendCircle/Classes/**/*",
   "dependencies": {
     "Kingfisher": [
-      "~> 3.13.1"
+
     ],
     "Then": [
 

@@ -32,7 +32,7 @@ class FCBaseTextView: UITextView {
             return nil
         }
         
-        if let _ = textStorage.attribute(NSLinkAttributeName, at: characterIndex, effectiveRange: nil) {
+        if let _ = textStorage.attribute(.link, at: characterIndex, effectiveRange: nil) {
             return self
         }
         

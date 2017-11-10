@@ -3,5 +3,5 @@ platform :ios, '8.0'
 
 target 'FriendCircle_Example' do
   pod 'FriendCircle', :path => '../'
-  pod 'ImageViewer', '~> 4.1.0'
+  pod 'ImageViewer'
 end

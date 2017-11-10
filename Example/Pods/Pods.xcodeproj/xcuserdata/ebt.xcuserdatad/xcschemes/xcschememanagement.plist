@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>FriendCircle.xcscheme_^#shared#^_</key>
+		<key>FriendCircle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -41,42 +41,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>07AA5113CAEEE7C2C02C62DB237D0120</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4C542A0104CE269B8EDEB50CC886D16E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5298F1065F944B6B1E00751B6BD4B106</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>83548DB259CDDAF1722C21C80CD1F343</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D866EBF69E95B6260E2DF8AD1CF75ED2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E82C655636C73688E92275CD9ED1EDAE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F39524EE3CB454C57280D14B680715DD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
